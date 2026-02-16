@@ -17,6 +17,9 @@ importers:
       uuid:
         specifier: ^13.0.0
         version: 13.0.0
+      valid-url:
+        specifier: ^1.0.9
+        version: 1.0.9
     devDependencies:
       nodemon:
         specifier: ^3.1.11
@@ -386,6 +389,9 @@ packages:
   uuid@13.0.0:
     resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
     hasBin: true
+
+  valid-url@1.0.9:
+    resolution: {integrity: sha512-QQDsV8OnSf5Uc30CKSwG9lnhMPe6exHtTXLRYX8uMwKENy640pU+2BgBL0LRbDh/eYRahNCS7aewCx0wf3NYVA==}
 
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
@@ -793,6 +799,8 @@ snapshots:
   unpipe@1.0.0: {}
 
   uuid@13.0.0: {}
+
+  valid-url@1.0.9: {}
 
   vary@1.1.2: {}
 
