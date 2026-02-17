@@ -77,7 +77,6 @@ export const createShortUrl = async (req, res, next) => {
         originalUrl: url
       }
     })
-
   } catch (error) {
     return next(error);
   }
@@ -108,8 +107,39 @@ export const redirectToUrl = async (req, res, next) => {
     await writeUrls(urls);
 
     return res.redirect(urls[urlIndex].originalUrl);
-
   } catch (error) {
     return next(error);
   }
 };
+
+export const getUrlStats = async (req, res, next) => {
+  try {
+    const shortCode = req.params.shortCode?.toLowerCase()
+
+    if (!shortCode) {
+      const error = new Error("Short code tidak valid");
+      error.status = 400;
+      return next(error);
+    }
+
+    const urls = await readUrls()
+    const url = urls.find(u => u.shortCode === shortCode)
+
+    if (!url) {
+      const error = new Error("Short code tidak ditemukan");
+      error.status = 404;
+      return next(error);
+    }
+    return res.status(200).json({
+      message: "Berhasil mendapatkan stats url",
+      data: {
+        originalUrl: url.originalUrl,
+        clicks: url.clicks,
+        createdAt: url.createdAt,
+        lastAccessed: url.lastAccessed
+      }
+    })
+  } catch (error) {
+    return next(error);
+  }
+}

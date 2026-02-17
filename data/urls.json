@@ -1,18 +1,18 @@
 [
   {
-    "id": "41151537-c060-4a7c-93f8-6f7956543cf7",
-    "shortCode": "Osl3y9",
-    "originalUrl": "http://google.com",
-    "clicks": 0,
-    "createdAt": "2026-02-16T11:18:52.564Z",
-    "lastAccessed": null
+    "id": "34b25a4b-e2f1-4c73-ad3e-8357c1981b4d",
+    "shortCode": "git",
+    "originalUrl": "https://github.com",
+    "clicks": 3,
+    "createdAt": "2026-02-17T13:06:28.847Z",
+    "lastAccessed": "2026-02-17T13:07:34.433Z"
   },
   {
-    "id": "3d6561c6-c157-4f4f-8b8f-7c1cc9c882d4",
-    "shortCode": "localdev",
-    "originalUrl": "http://localhost:3000",
+    "id": "ae03b0e8-68e9-4aa3-92ca-ccaa23f8b427",
+    "shortCode": "6ksh5n",
+    "originalUrl": "https://komiku.org",
     "clicks": 0,
-    "createdAt": "2026-02-17T02:36:18.369Z",
+    "createdAt": "2026-02-17T13:06:45.765Z",
     "lastAccessed": null
   }
 ]
