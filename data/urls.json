@@ -8,11 +8,11 @@
     "lastAccessed": null
   },
   {
-    "id": "2390cf46-a9f9-44be-b7cf-910b775c4bb0",
-    "shortCode": "TUVWC3",
-    "originalUrl": "http://komiku.org",
+    "id": "3d6561c6-c157-4f4f-8b8f-7c1cc9c882d4",
+    "shortCode": "localdev",
+    "originalUrl": "http://localhost:3000",
     "clicks": 0,
-    "createdAt": "2026-02-16T11:22:48.165Z",
+    "createdAt": "2026-02-17T02:36:18.369Z",
     "lastAccessed": null
   }
 ]
