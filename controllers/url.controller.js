@@ -72,7 +72,7 @@ export const createShortUrl = async (req, res, next) => {
     return res.status(201).json({
       message: "Berhasil membuat short url",
       data: {
-        shortUrl: `${BASE_URL}/${shortCode}`,
+        shortUrl: `${BASE_URL}/u/${shortCode}`,
         shortCode,
         originalUrl: url
       }
