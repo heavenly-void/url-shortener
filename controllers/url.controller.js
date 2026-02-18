@@ -123,7 +123,7 @@ export const getUrlStats = async (req, res, next) => {
     }
 
     const urls = await readUrls()
-    const url = urls.find(u => u.shortCode === shortCode)
+    const url = urls.find(u => u.shortCode.toLowerCase() === shortCode)
 
     if (!url) {
       const error = new Error("Short code tidak ditemukan");

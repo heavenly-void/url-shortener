@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Halaman Tidak Ditemukan</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 96px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
+
+    p {
+      margin-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    a {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #fff;
+      color: #764ba2;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    a:hover {
+      background: #f0f0f0;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 64px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <h2>Oops! Halaman tidak ditemukan</h2>
+    <p>Halaman yang kamu cari mungkin sudah dipindahkan atau tidak tersedia.</p>
+    <a href="/">Kembali ke Beranda</a>
+  </div>
+</body>
+</html>
