@@ -188,7 +188,7 @@ Melakukan redirect ke original URL berdasarkan shortCode.
 Contoh:
 
 ```
-GET /abc123
+GET /u/abc123
 ```
 
 Behavior:
